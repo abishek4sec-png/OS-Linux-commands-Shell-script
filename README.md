@@ -262,83 +262,61 @@ cat > file23
 1001 | Ram | 10000 | HR
 ^d
 ```
-
-
 sed -n -e '3p' file23
-## OUTPUT
-
-
-
 sed -n -e '$p' file23
-## OUTPUT
-
-
-
 sed  -e 's/Ram/Sita/' file23
-## OUTPUT
-
-
-
 sed  -e '2s/Ram/Sita/' file23
-## OUTPUT
-
-
-
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
 
 
 sed -n -e '1,5p' file23
-## OUTPUT
-
-
 
 sed -n -e '2,/Joe/p' file23
-## OUTPUT
+
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
-## OUTPUT
 
 
 
 seq 10 
-## OUTPUT
+
 
 
 
 seq 10 | sed -n '4,6p'
-## OUTPUT
+
 
 
 
 seq 10 | sed -n '2,~4p'
-## OUTPUT
 
 
 
 seq 3 | sed '2a hello'
-## OUTPUT
 
 
 
 seq 2 | sed '2i hello'
-## OUTPUT
 
 
 seq 10 | sed '2,9c hello'
-## OUTPUT
+
 
 
 sed -n '2,4{s/^/$/;p}' file23
-## OUTPUT
+
 
 
 
 sed -n '2,4{s/$/*/;p}' file23
+## Output:
+<img width="708" height="1010" alt="image" src="https://github.com/user-attachments/assets/db52a9a4-9053-4991-bc66-0cdc1d7ebe77" />
+<img width="881" height="1068" alt="image" src="https://github.com/user-attachments/assets/3f64ec01-1df7-4616-aa0e-359205d1e4bf" />
 
 
 #Sorting File content
