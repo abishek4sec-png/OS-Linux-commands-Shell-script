@@ -330,6 +330,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="416" height="198" alt="image" src="https://github.com/user-attachments/assets/4ae6259c-0c44-4b7b-9a64-cf01770cab31" />
 
 
 cat > file22
@@ -343,6 +344,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="407" height="236" alt="image" src="https://github.com/user-attachments/assets/c9413160-098b-459f-84e9-094dcbe34d73" />
 
 
 
@@ -350,6 +352,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="439" height="263" alt="image" src="https://github.com/user-attachments/assets/c9f69eda-79a8-4688-b6a8-89e5bbc1ec2a" />
 
 cat < urllist.txt
 ```
@@ -366,17 +369,21 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="598" height="133" alt="image" src="https://github.com/user-attachments/assets/37871e7d-033b-4c34-a8f5-923501263cf7" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="775" height="132" alt="image" src="https://github.com/user-attachments/assets/dd2449d1-f010-4eac-adfc-ff1aaaa1b47b" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="514" height="292" alt="image" src="https://github.com/user-attachments/assets/d6bf3b22-ac7b-4988-a03a-e4e6f8f46da1" />
+
 
 
 mkdir backupdir
@@ -387,10 +394,12 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="772" height="355" alt="image" src="https://github.com/user-attachments/assets/33d97537-7777-47ec-9995-aed82a85edb1" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="581" height="360" alt="image" src="https://github.com/user-attachments/assets/15d4061f-382e-462e-a042-8457b3f9d24d" />
 
 gzip backup.tar
 
